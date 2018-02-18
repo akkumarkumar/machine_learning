@@ -1,0 +1,17 @@
+IN THIS WE WOULD NOT SEE ANY CODING IT'S JUST A SET OF FORMULAS WE WOULD BE USING IN REGRESSION
+
+*here xs and ys refers to the points chossen to make a line e.g xs = 2,3,4,5 and ys = 5,6,7,8
+*so points are (2,5) , (3,6) ..... etc it's because points are mentioned in (x,y) according to co-ordinate geometry
+
+
+1.m =(mean(xs)*mean(ys)) - (mean(xs*ys)) / (mean(xs)**2) - mean(xs)**2 ----> to find slope of line
+       
+2.c = (mean(ys)) - m*mean(xs) -----> to find y-intercept
+
+3.squared_error = (ys_line - ys_orig)**2
+
+4. R^2 = 1 - squared_error of y's mean line / squared_error of y's regression line
+
+5. equation of line = y = mx + c
+
+
