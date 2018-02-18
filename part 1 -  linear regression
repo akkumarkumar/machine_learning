@@ -1,0 +1,41 @@
+# first part of machine learning with python and finding the best fit line or linear regression
+
+# first we have to import modules 
+import numpy as np
+import matplotlib.pyplot as plt
+
+style.use('fivethirtyeight') # add style for graphical representation of regression
+
+xs = np.array([1,2,3,4,5,6])#   makes a array of 6 elements
+ys = np.array([5,4,6,5,6,7])#   makes a array of 6 elements
+
+# to underestand this we must have to know a formula - y = mx + c or you say y = ma + b
+# here m - is the slope of line             c - y intercept 
+
+########################################################################################################################
+
+^
+|
+|          /
+|         /
+|        /
+|       /
+|_____ /_____
+|     /      |
+|    /       |
+|   /        |
+|  /         |
+| / )        |
+|/_s_)_______|_________________________________________>
+a
+
+##############################################################################################################################
+
+#here in this diagram , point a in the y-intercept that cuts the y-axis at point 0,0
+#and s is the slope or the inclination
+
+#now to find regression line we have to finds the line's slope and intercept then we have to use y = mx + c
+
+#A list of formula is given in which one of it is  my file
+
+#now next step is to use them and check it in coding
