@@ -1,0 +1,39 @@
+==================================================Machine_Learning=====================================================================
+keypoint-
+1. functional relationship - if one variable is related to other then how the second    variable would change if the other is changed
+2. nature of relationship - means whether it is functional or proportionall or inversly     related.
+3.Quandl - Quandl is a platform for financial, economic, and alternative data that                   serves investment professionals. Quandl sources data from over 500                   publishers. All Quandl's data are accessible via an API. API access is                   possible through packages for multiple programming languages including                  R, Python, Matlab, Maple and Stata.
+====================================================================
+
+REGRESSION:
+
+To take continuous data and figure out the best line to that of data.Means to model our data. ---- SENTDEX
+
+dictionary meaning - regression means to 'step back' or 'going back' 
+
+Regression also is the average relationship shared by two or more variables on the basis of it's original units of data.
+
+Regression also attempts to study the functional relationship between variables so that it could provide a pridiction or forecasting mechanism.
+======================EXAMPLE OF REGRESSION=======================
+example-------
+
+suppose one say's that when population increase the population also increase--- this we just forecasted via regression....
+====================================================================
+IMPORTANCE---- OF ---- REGRESSION----
+1. We can find estimate value of a dependent variable through an independent variable.For example-
+in math of straight line we see,
+                                     y = mx + c
+SO, here by knowing values of x we could easily find value of y,by taking out of slope i.e the m and the y-intercept i.e the c.
+means y - dependent variable and x - independent variable .
+now relate it from it's importance .
+2. We can extend this regression to many variables known as - multiple regression
+3. It show's the nature of relationship between variables .
+=======================================================
+
+So data is just a series of x and y axis like in this grap----
+and we could find the error term epsilon as
+we fit it in st line equation ----
+
+y = B_0 + B_1*X_E          E ---- >  FOR EPSILON
+
+
